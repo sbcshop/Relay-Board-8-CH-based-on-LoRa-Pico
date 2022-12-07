@@ -1,7 +1,6 @@
 # Relay-Board-8-CH-based-on-LoRa-Pico
 
-# GatePi-8CH
-The 8-Channel GatePi Relay Board based on LoRa™ and RP2040 MCU is a low-power data transmission board and has all the features exactly similar to the 4 Channel Relay Board, except it has 8 relay channels for an increased capacity and efficiency. It is a low-power consumption data transmission board, that comes with an onboard CH340 USB TO UART converter, Voltage Level Translator(74HC125V), E22-400T22S/E22-900T22S SMA antenna connector that covers 433/868/915 MHz frequency band, 8-Ch Relays, IPEX antenna connector, LoRa™ Spread Spectrum Modulation technology with auto multi-level repeating. GatePi is developed to enable data transmission up to 5 KM through the serial port.
+The Relay-Board-8-CH-based-on-LoRa-Pico is based on RP2040 MCU is a low-power data transmission board and has all the features exactly similar to the 4 Channel Relay Board, except it has 8 relay channels for an increased capacity and efficiency. It is a low-power consumption data transmission board, that comes with an onboard CH340 USB TO UART converter, Voltage Level Translator(74HC125V), E22-400T22S/E22-900T22S SMA antenna connector that covers 433/868/915 MHz frequency band, 8-Ch Relays, IPEX antenna connector, LoRa™ Spread Spectrum Modulation technology with auto multi-level repeating. GatePi is developed to enable data transmission up to 5 KM through the serial port.
 
 ## Features
 * It has 8ch relays for controlling 8-Outputs connections
@@ -22,10 +21,10 @@ Raspberry Pi RP2040 Microcontroller Chip is the debut microcontroller from Raspb
 LoRa stands for Long Range Radio and is mainly targeted for M2M and IoT networks. This technology will enable public or multi-tenant networks to connect a number of applications running on the same network. E22-400T22S1B is a wireless serial port module (UART) based on SEMTECH's SX1268 RF chip. It has multiple transmission modes,working in the (410.125MHz~493.125MHz) frequency band (default 433.125MHz), LoRa spread spectrum technology, TTL level output,compatible with 3.3V and 5V IO port.
 
 ## Relays
-The GatePi 8channel board is consist of 8 relay modules for connecting the four different appliances or any devices you want to control through our GatePi board.
+The Relay-Board-8-CH-based-on-LoRa-Pico is consist of 8 relay modules for connecting the four different appliances or any devices you want to control through our GatePi board.
 
 ## USB Port, and Boot Button
-USB port is used for debugging python programmes in our this board, and for powering up this board. Boot button is used to make GatePi 8Ch board in Boot mode for updating firmware to it.
+USB port is used for debugging python programmes in our this board, and for powering up this board. Boot button is used to make Relay-Board-8-CH-based-on-LoRa-Pico in Boot mode for updating firmware to it.
 
 ## DIP Switch
 It is four way slide switch used select direct cummunication with LoRa module or communication through RP2040 via micro-USB. The 1 and 2 should have in "ON" postion, 3 and 4 should be in "OFF" position for working with our Example codes.
@@ -38,16 +37,16 @@ It is four way slide switch used select direct cummunication with LoRa module or
       * How to use "LoRa Home Automation Application(App)
       
 
-## Working With GatePi 8Ch
+## Working With Relay-Board-8-CH-based-on-LoRa-Pico
 
 For working with this board you will need two or more than two loara product, it can be same products or may be our other LoRa products to establish the communication between them.
 * If you haven’t installed Thonny Software or don’t know how to use Thonny IDE, please read our other documentations https://github.com/sbcshop/RangePi
 
 * -->The "main.py" is the reciever example code for controlling 8 relays. This code should be saved in RP2040 of GatePi 8ch so that when it recieve data from transmitter it will operate realys one by one according to data recieved at this end.
 
-* -->The "Transmit.py" file is the code for sending the data for the purpose of controlling relays of GatePi. This code can be saved in any of our LoRa devices(such as RangePi) to send data. It will send "1relay1" at a fix interval of time to operate "relay-1" and so on for other relays, you can replace this by any keywords you want but this should be change in reciever code also.
+* -->The "Transmit.py" file is the code for sending the data for the purpose of controlling relays of Relay-Board-8-CH-based-on-LoRa-Pico. This code can be saved in any of our LoRa devices(such as RangePi) to send data. It will send "1relay1" at a fix interval of time to operate "relay-1" and so on for other relays, you can replace this by any keywords you want but this should be change in reciever code also.
 
-* -->You can also control the GatePi with the help of GUI, or you can also control through your pc via GUI. For this uplaod the "rangepi__transmitter_app_control.py" code as transmitter and Setup the GUI in your computer system by plugin this transmitter device. Now, select COM port and connect it.
+* -->You can also control the Relay-Board-8-CH-based-on-LoRa-Pico with the help of GUI, or you can also control through your pc via GUI. For this uplaod the "rangepi__transmitter_app_control.py" code as transmitter and Setup the GUI in your computer system by plugin this transmitter device. Now, select COM port and connect it.
 
 In windows, you can use PICO Lora Expansion, Pi Lora Hat, GatePi-4Ch/8Ch and RangePi as a transmitter
 
@@ -56,7 +55,7 @@ In windows, you can use PICO Lora Expansion, Pi Lora Hat, GatePi-4Ch/8Ch and Ran
 ## Our Other LoRa Products
 
 * GatePi 4Channel
-* GatePi 8channel*
+* Relay-Board-8-CH-based-on-LoRa-Pico*
 * RangePi(USB Dongle)
 * LoRA HAT for RPi
 * PICO LoRa Expansion
@@ -66,7 +65,7 @@ You will simply need to make one device to work as reciever and another one is a
 * GatePi 4Channel
 https://github.com/sbcshop/GatePi-4CH
 
-* GatePi 8channel* (Itself)
+* Relay-Board-8-CH-based-on-LoRa-Pico* (Itself)
 * RangePi
 https://github.com/sbcshop/RangePi
 * LoRA HAT for RPi
